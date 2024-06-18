@@ -148,11 +148,12 @@ body{
     gap: 1.5rem;
 }
 .about-img img{
-    padding-bottom: 20%;
-    max-width: 630px;
+    padding-bottom:8px;
+    max-width: 520px;
     height: auto;
-    width: 100%;
-    border-radius: 8px;
+    width: 70%;
+    border-radius: 12%;
+    background-color: #051129;
 }
 .about-text h2{
     font-size: 60px;
