@@ -149,11 +149,12 @@ body{
 }
 .about-img img{
     padding-bottom:8px;
+    margin-left: 10%;
     max-width: 520px;
     height: auto;
-    width: 70%;
-    border-radius: 12%;
-    background-color: #051129;
+    width: 50%;
+    border-radius: 50px;
+    background-color: transparent;
 }
 .about-text h2{
     font-size: 60px;
@@ -257,6 +258,7 @@ section{
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
+    margin-bottom: 10%;
 }
 .heading1{
     text-align: center;
