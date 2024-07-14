@@ -54,7 +54,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background:url(./images/Home.png) no-repeat;
+    background:url(home.jpg) no-repeat;
     /* background:  #008080; */
     background-size: cover;
     background-position: center;
@@ -148,13 +148,12 @@ body{
     gap: 1.5rem;
 }
 .about-img img{
-    padding-bottom:8px;
-    margin-left: 10%;
-    max-width: 520px;
+    padding-bottom: 20%;
+    padding: 20px;
+    max-width: 630px;
     height: auto;
-    width: 50%;
-    border-radius: 50px;
-    background-color: transparent;
+    width: 100%;
+    border-radius: 5px;
 }
 .about-text h2{
     font-size: 60px;
@@ -258,7 +257,6 @@ section{
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
-    margin-bottom: 10%;
 }
 .heading1{
     text-align: center;
@@ -318,14 +316,11 @@ section{
 .progress-line.css span{
     width: 80%;
 }
-.progress-line.javaScript span{
-    width: 50%;
-}
 .progress-line.python span{
     width: 75%;
 }
-.progress-line.react span{
-    width: 65%;
+.progress-line.javaScript span{
+    width: 30%;
 }
 .progress-line span::after{
     position: absolute;
@@ -346,13 +341,10 @@ section{
     content: "80%";
 }
 .progress-line.javaScript span::after{
-    content: "50%";
+    content: "30%";
 }
 .progress-line.python span::after{
     content: "75%";
-}
-.progress-line.react span::after{
-    content: "65%";
 }
 .progress-line span::before{
     content: "";
@@ -582,6 +574,10 @@ section{
 .contact-list li{
     margin-bottom: 10px;
     display: block;
+}
+.contact-list li a{
+    text-decoration: none;
+    color: white;
 }
 .contact-list i{
     display: inline-block;
